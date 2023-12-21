@@ -18,7 +18,7 @@ export default {
         grey: 'hsl(var(--color-grey) / <alpha-value>)',
       },
       fontFamily: {
-        sans: ['Roboto', ...defaultTheme.fontFamily.sans],
+        sans: ["'Roboto'", ...defaultTheme.fontFamily.sans],
       },
     },
   },

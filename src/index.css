@@ -14,7 +14,8 @@
     width: 100%;
     min-width: 280px;
   }
-  @font-face {
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+  /* @font-face {
     font-family: Roboto;
     font-weight: normal;
     src: url(/src/assets/fonts/Roboto-Regular.ttf) format('ttf');
@@ -25,5 +26,5 @@
     font-weight: bold;
     src: url(/src/assets/fonts/Roboto-Bold.ttf) format('ttf');
     font-display: fallback;
-  }
+  } */
 }
