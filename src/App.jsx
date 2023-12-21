@@ -5,7 +5,7 @@ import AppLayout from './pages/AppLayout';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={'/frontend-mentor-newsletter/'}>
       <Routes>
         <Route path="/" element={<AppLayout />}>
           <Route index element={<SubscribeForm />} />
