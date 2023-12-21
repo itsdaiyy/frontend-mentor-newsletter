@@ -6,7 +6,7 @@ export default defineConfig({
   // 開發中、產品路徑
   base:
     process.env.NODE_ENV === 'production'
-      ? '/frontend-mentor-newsletter/'
+      ? './frontend-mentor-newsletter/'
       : '/',
   plugins: [react()],
 });
