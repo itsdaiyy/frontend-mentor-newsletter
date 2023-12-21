@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-orange: 21deg 95% 60%;
+    --color-tomato: 339deg 100% 62%;
+    --color-dark-grey: 234deg 29% 20%;
+    --color-charcoal-grey: 235deg 18% 26%;
+    --color-grey: 231deg 7% 60%;
+  }
+  body {
+    width: 100%;
+    min-width: 280px;
+  }
+  @font-face {
+    font-family: Roboto;
+    font-weight: normal;
+    src: url(/src/assets/fonts/Roboto-Regular.ttf);
+  }
+  @font-face {
+    font-family: Roboto;
+    font-weight: bold;
+    src: url(/src/assets/fonts/Roboto-Bold.ttf);
+  }
+}
